@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Potter"
+dynamic = ["version"]
+dependencies = [
+    "numpy",
+    ]
+requires-python = ">= 3.8"
+authors = [
+    {name = "Joe Fowler", email = "joe.fowler@nist.gov"},
+    {name = "Nathan Nakamura"}
+]
+description = "Python-Operated Tools for TOPAS Exploration + Research"
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = ["TOPAS", "GEANT4"]
+
+classifiers = [
+  # How mature is this project? Common values are
+  #   3 - Alpha
+  #   4 - Beta
+  #   5 - Production/Stable
+  "Development Status :: 3 - Alpha",
+
+  # Indicate who your project is intended for
+  "Intended Audience :: Physicists",
+
+  # Pick your license as you wish (see also "license" above)
+  "License :: OSI Approved :: MIT License",
+
+  # Specify the Python versions you support here.
+  "Programming Language :: Python :: 3",
+]
+
+[project.urls]
+Homepage = "https://github.com/joefowler/Potter"
+Repository = "https://github.com/joefowler/Potter.git"
+Issues = "https://github.com/joefowler/Potter/issues"
+# Documentation = "https://readthedocs.org"
